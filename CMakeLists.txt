@@ -7,22 +7,17 @@ add_executable(idk)
 
 target_sources(idk 
     PRIVATE 
-        src/main.cxx
-        src/game.cxx
+        src/game.cpp
 )
 
 target_include_directories(idk 
     PUBLIC
         src/include
-
 )
-
-
 
 target_link_libraries(idk 
     PRIVATE 
     raylib    
 )  
-
 
 

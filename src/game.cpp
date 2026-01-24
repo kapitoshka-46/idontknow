@@ -8,9 +8,6 @@ constexpr int PLAYER_SPEED = 200;
 const int screenWidth = 800;
 const int screenHeight = 450;
 
-void DrawAsTank(Vector2 posCenter) {
-
-}
 
 struct Entity {
     Vector2 pos;
